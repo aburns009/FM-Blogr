@@ -22,7 +22,6 @@ body {
   padding: 0;
   height: 100vh;
   font-family: 'Overpass', sans-serif;
-  font-size: 1rem;
 }
 
 header {
@@ -33,11 +32,35 @@ header {
     rgba(255, 61, 84, 1) 100%
   );
   color: var(--clr-white);
-  border-bottom-left-radius: 3rem;
+  border-bottom-left-radius: 5rem;
 }
 
+.logo {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
 .navbar {
   display: flex;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.dropbtn {
+  padding: 1.5rem;
+  font-size: 1rem;
+  color: var(--clr-white);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.title {
+  font-size: 4rem;
+  margin-bottom: 0;
 }
 
 /* ---------- Utility Classes ------------ */
