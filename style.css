@@ -25,6 +25,7 @@ body {
 }
 
 header {
+  height: 35rem;
   background: rgb(255, 143, 112);
   background: linear-gradient(
     90deg,
@@ -38,6 +39,8 @@ header {
 .logo {
   font-size: 2.5rem;
   font-weight: 700;
+  margin-left: 10%;
+  margin-right: 3%;
 }
 .navbar {
   display: flex;
@@ -58,9 +61,40 @@ header {
   display: none;
 }
 
+.logup {
+}
+
+.top-text {
+  margin-top: 5em;
+}
+
 .title {
   font-size: 4rem;
   margin-bottom: 0;
+}
+
+.sub-title {
+  margin-top: 0.5em;
+  margin-bottom: 3.5em;
+}
+
+.register {
+  margin: 0.5em;
+  padding: 0.9rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 500px;
+}
+
+.start {
+  color: var(--clr-red);
+  background-color: var(--clr-white);
+}
+
+.learn {
+  color: var(--clr-white);
+  border: 1px solid var(--clr-white);
 }
 
 /* ---------- Utility Classes ------------ */
