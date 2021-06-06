@@ -26,9 +26,6 @@ body {
 
 header {
   height: 35rem;
-  background-image: url(./images/bg-pattern-intro.svg);
-  background-repeat: no-repeat;
-  background: rgb(255, 143, 112);
   background: linear-gradient(
     90deg,
     rgba(255, 143, 112, 1) 0%,
@@ -36,6 +33,13 @@ header {
   );
   color: var(--clr-white);
   border-bottom-left-radius: 5rem;
+  z-index: -1;
+}
+
+.back-img {
+  background-image: url('./images/bg-pattern-intro.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .navbar {
@@ -54,7 +58,7 @@ header {
 .dropbtn {
   padding: 1.5rem;
   font-size: 1rem;
-  color: var(--clr-white);
+  color: var(--clr-grayBlue);
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -70,6 +74,7 @@ header {
 
 #signup {
   padding: 0.9rem 2.3rem;
+  white-space: nowrap;
 }
 
 .top-text {
@@ -82,6 +87,8 @@ header {
 }
 
 .sub-title {
+  color: var(--clr-grayBlue);
+  font-size: 1.2rem;
   margin-top: 0.5em;
   margin-bottom: 3.5em;
 }
@@ -103,6 +110,22 @@ header {
 .learn {
   color: var(--clr-white);
   border: 1px solid var(--clr-white);
+}
+
+.first-section {
+  color: var(--clr-dkBlue);
+  margin-top: 8em;
+}
+
+.first-heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2em;
+}
+
+.subheading {
+  color: var(--clr-dkBlue);
+  font-size: 1.7rem;
 }
 
 /* ---------- Utility Classes ------------ */
