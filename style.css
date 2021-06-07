@@ -37,10 +37,13 @@ header {
 }
 
 .back-img {
+  z-index: 10;
   background-image: url('./images/bg-pattern-intro.svg');
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+/* -----------------Navbar------------------------ */
 
 .navbar {
   display: flex;
@@ -67,6 +70,8 @@ header {
 .dropdown-content {
   display: none;
 }
+
+/* -----------------Header Text------------------------ */
 
 .login {
   color: var(--clr-white);
@@ -112,20 +117,30 @@ header {
   border: 1px solid var(--clr-white);
 }
 
+/* -----------------First Section------------------------ */
+
 .first-section {
   color: var(--clr-dkBlue);
-  margin-top: 8em;
+  margin: 8em;
 }
 
 .first-heading {
   font-size: 2.5rem;
   font-weight: 600;
-  margin-bottom: 2em;
+  margin-bottom: 0;
 }
 
 .subheading {
   color: var(--clr-dkBlue);
   font-size: 1.7rem;
+}
+
+.sec-paragraph {
+  width: 35rem;
+}
+
+.img-screen {
+  margin-right: -22em;
 }
 
 /* ---------- Utility Classes ------------ */
@@ -137,4 +152,12 @@ header {
 .flex-cont {
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  gap: 6em;
+}
+
+img {
+  max-width: 85%;
+  min-width: 40rem;
+  height: auto;
 }
