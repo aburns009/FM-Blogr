@@ -22,6 +22,7 @@ body {
   padding: 0;
   height: 100vh;
   font-family: 'Overpass', sans-serif;
+  overflow-x: hidden;
 }
 
 header {
@@ -32,12 +33,10 @@ header {
     rgba(255, 61, 84, 1) 100%
   );
   color: var(--clr-white);
-  border-bottom-left-radius: 5rem;
-  z-index: -1;
+  border-bottom-left-radius: 6rem;
 }
 
 .back-img {
-  z-index: 10;
   background-image: url('./images/bg-pattern-intro.svg');
   background-repeat: no-repeat;
   background-position: center center;
@@ -136,12 +135,49 @@ header {
 }
 
 .sec-paragraph {
-  width: 35rem;
+  line-height: 2rem;
+  width: 31rem;
 }
 
 .img-screen {
   margin-right: -22em;
 }
+
+/* -----------------Second Section------------------------ */
+
+.second-section {
+  color: white;
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    rgba(44, 45, 63, 1) 0%,
+    rgba(63, 65, 100, 1) 100%
+  );
+  border-radius: 0 6rem 0 6rem;
+}
+
+.second-flex-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: url(./images/bg-pattern-circles.svg) no-repeat;
+  background-position: -200px -500px;
+  height: 28rem;
+  border-radius: 0 6rem 0 6rem;
+}
+
+.second-heading {
+  font-size: 2.1rem;
+}
+
+.second-text {
+  margin-right: 5em;
+}
+
+/* -----------------Third Section------------------------ */
+/* .third-text {
+  margin-right: 25em;
+} */
 
 /* ---------- Utility Classes ------------ */
 
@@ -153,11 +189,4 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 6em;
-}
-
-img {
-  max-width: 85%;
-  min-width: 40rem;
-  height: auto;
 }
