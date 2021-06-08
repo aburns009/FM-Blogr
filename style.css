@@ -49,12 +49,11 @@ header {
   align-items: center;
   justify-content: space-around;
   font-family: 'Ubuntu', sans-serif;
+  height: 6rem;
 }
 
 .logo {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-right: 1em;
+  margin-right: 3em;
 }
 
 .dropbtn {
@@ -175,9 +174,31 @@ header {
 }
 
 /* -----------------Third Section------------------------ */
-/* .third-text {
-  margin-right: 25em;
-} */
+
+.third-section {
+  margin: 7em 0 7em 0;
+}
+
+.third-text {
+  margin-right: 20em;
+}
+
+/* -----------------Footer------------------------ */
+
+footer {
+  border-top-right-radius: 6rem;
+  background-color: hsl(240, 10%, 16%);
+  padding: 3rem;
+  display: flex;
+  justify-content: space-around;
+  color: var(--clr-white);
+}
+
+.footer-link {
+  line-height: 3rem;
+  text-decoration: none;
+  color: var(--clr-white);
+}
 
 /* ---------- Utility Classes ------------ */
 
