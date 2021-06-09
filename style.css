@@ -71,6 +71,10 @@ header {
   display: none;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 /* -----------------Header Text------------------------ */
 
 .login {
@@ -226,7 +230,7 @@ footer {
     line-height: 1.5rem;
   }
   .first {
-    margin-left: 15em;
+    margin-left: 5em;
   }
 
   .third-section {
@@ -235,7 +239,30 @@ footer {
 }
 
 @media screen and (max-width: 840px) {
+  .mobile-menu {
+    display: block;
+    position: absolute;
+    right: 5em;
+  }
+
+  .logo {
+    margin-right: 10em;
+  }
+
+  .dropdown > * {
+    display: none;
+  }
+
+  .registration > * {
+    display: none;
+  }
+
+  .title {
+    margin-top: 2.5em;
+    font-size: 3rem;
+  }
   .flex-cont {
     flex-direction: column;
+    justify-content: center;
   }
 }
