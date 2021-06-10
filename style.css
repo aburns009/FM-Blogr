@@ -148,6 +148,10 @@ header {
   margin-right: -22em;
 }
 
+.mobile-img-screen {
+  display: none;
+}
+
 /* -----------------Second Section------------------------ */
 
 .second-section {
@@ -238,7 +242,24 @@ footer {
   }
 }
 
+/* -----------------Mobile------------------------ */
+
 @media screen and (max-width: 840px) {
+  * {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .flex-cont {
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* -----------------Mobile Header------------------------ */
+  .back-img {
+    background-size: 300%;
+    background-position: center center;
+  }
+
   .mobile-menu {
     display: block;
     position: absolute;
@@ -261,8 +282,28 @@ footer {
     margin-top: 2.5em;
     font-size: 3rem;
   }
-  .flex-cont {
-    flex-direction: column;
-    justify-content: center;
+  /* -----------------Mobile First Section------------------------ */
+
+  .first-section {
+    margin: 0;
+  }
+
+  .first-heading {
+    font-size: 2.3rem;
+    white-space: nowrap;
+    margin: 3em 0 1em 0;
+  }
+  .img-screen {
+    display: none;
+  }
+  .mobile-img-screen {
+    display: block;
+  }
+  .first {
+    margin: 0;
+  }
+  .sec-paragraph {
+    padding: 2rem;
+    width: 100%;
   }
 }
