@@ -61,7 +61,7 @@ header {
 .dropbtn {
   padding: 1.5rem;
   font-size: 1rem;
-  color: var(--clr-grayBlue);
+  color: rgba(255, 255, 255, 0.7);
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -96,7 +96,7 @@ header {
 }
 
 .sub-title {
-  color: var(--clr-grayBlue);
+  color: rgba(255, 255, 255, 0.7);
   font-size: 1.2rem;
   margin-top: 0.5em;
   margin-bottom: 3.5em;
@@ -211,7 +211,7 @@ footer {
 .footer-link {
   line-height: 3rem;
   text-decoration: none;
-  color: var(--clr-white);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* ---------- Utility Classes ------------ */
@@ -283,7 +283,6 @@ footer {
   }
 
   .title {
-    margin-top: 2em;
     font-size: 3rem;
   }
   /* -----------------Mobile First Section------------------------ */
