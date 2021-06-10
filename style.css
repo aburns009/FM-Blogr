@@ -230,8 +230,8 @@ footer {
 
 @media screen and (max-width: 900px) {
   .sec-paragraph {
-    width: 15rem;
-    line-height: 1.5rem;
+    width: 18rem;
+    line-height: 1.8rem;
   }
   .first {
     margin-left: 5em;
@@ -298,6 +298,7 @@ footer {
   }
   .mobile-img-screen {
     display: block;
+    margin-bottom: 2em;
   }
   .first {
     margin: 0;
@@ -305,5 +306,15 @@ footer {
   .sec-paragraph {
     padding: 2rem;
     width: 100%;
+    line-height: 2rem;
+  }
+  /* -----------------Mobile First Section------------------------ */
+  .second-flex-cont {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .second-section {
+    margin-top: 16em;
+    height: 40rem;
   }
 }
