@@ -193,6 +193,10 @@ header {
   margin-right: 20em;
 }
 
+#mobile-laptop-img {
+  display: none;
+}
+
 /* -----------------Footer------------------------ */
 
 footer {
@@ -279,7 +283,7 @@ footer {
   }
 
   .title {
-    margin-top: 2.5em;
+    margin-top: 2em;
     font-size: 3rem;
   }
   /* -----------------Mobile First Section------------------------ */
@@ -304,17 +308,42 @@ footer {
     margin: 0;
   }
   .sec-paragraph {
-    padding: 2rem;
+    padding: 3rem;
     width: 100%;
     line-height: 2rem;
   }
-  /* -----------------Mobile First Section------------------------ */
+  /* -----------------Mobile Second Section------------------------ */
+  #phone-img {
+    transform: scale(0.9);
+  }
+
   .second-flex-cont {
     flex-direction: column;
     justify-content: center;
   }
   .second-section {
     margin-top: 16em;
-    height: 40rem;
+    height: 45rem;
+  }
+  .second-text {
+    margin: 0;
+    padding: 2rem;
+  }
+  /* -----------------Mobile Third Section------------------------ */
+  #laptop-img {
+    display: none;
+  }
+  #mobile-laptop-img {
+    display: block;
+  }
+  .third-section {
+    margin: 0;
+  }
+  .third-text {
+    margin: 0;
+  }
+  /* -----------------Footer Section------------------------ */
+  footer {
+    flex-direction: column;
   }
 }
