@@ -263,7 +263,7 @@ footer {
   }
   /* -----------------Mobile Header------------------------ */
   header {
-    height: 38rem;
+    height: 40rem;
   }
 
   .back-img {
@@ -290,7 +290,7 @@ footer {
   }
 
   .title {
-    font-size: 3rem;
+    font-size: 2.6rem;
   }
   /* -----------------Mobile First Section------------------------ */
 
@@ -314,6 +314,7 @@ footer {
     margin: 0;
   }
   .sec-paragraph {
+    margin-bottom: 1em;
     padding: 3rem;
     width: 100%;
     line-height: 2rem;
@@ -329,7 +330,7 @@ footer {
   }
   .second-section {
     margin-top: 16em;
-    height: 45rem;
+    height: 48rem;
   }
   .second-text {
     margin: 0;
