@@ -267,7 +267,7 @@ footer {
   .mobile-menu {
     display: block;
     position: absolute;
-    right: 5em;
+    right: 3.5em;
   }
 
   .logo {
@@ -344,5 +344,13 @@ footer {
   /* -----------------Footer Section------------------------ */
   footer {
     flex-direction: column;
+  }
+  .footer-column {
+    margin-top: 2em;
+  }
+
+  .footer-heading {
+    margin-top: 0.7em;
+    margin-bottom: 1em;
   }
 }
