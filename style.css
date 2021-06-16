@@ -262,6 +262,10 @@ footer {
     justify-content: center;
   }
   /* -----------------Mobile Header------------------------ */
+  header {
+    height: 38rem;
+  }
+
   .back-img {
     background-size: 300%;
     background-position: center center;
@@ -295,7 +299,7 @@ footer {
   }
 
   .first-heading {
-    font-size: 2.3rem;
+    font-size: 2rem;
     white-space: nowrap;
     margin: 3em 0 1em 0;
   }
