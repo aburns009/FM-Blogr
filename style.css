@@ -315,7 +315,7 @@ footer {
   }
   .sec-paragraph {
     margin-bottom: 1em;
-    padding: 3rem;
+    padding: 1rem;
     width: 100%;
     line-height: 2rem;
   }
@@ -334,7 +334,7 @@ footer {
   }
   .second-text {
     margin: 0;
-    padding: 2rem;
+    width: 100%;
   }
   /* -----------------Mobile Third Section------------------------ */
   #laptop-img {
