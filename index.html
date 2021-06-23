@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
     <title>FM | Blogr</title>
   </head>
   <body>
@@ -14,8 +15,31 @@
           <!-- -------------- Navbar -------------------- -->
           <nav class="navbar">
             <div class="flex-cont">
-              <img class="logo" src="images\logo.svg" alt="" />
-              <img class="mobile-menu" src="images\icon-hamburger.svg" alt="" />
+              <img
+                class="logo"
+                src="images\logo.svg"
+                alt="Stylized Blogr, the companies logo"
+              />
+              <!-- Mobile Nav -->
+              <div class="burger">
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="burgerMenu()"
+                >
+                  <img
+                    class="mobile-menu"
+                    src="images\icon-hamburger.svg"
+                    alt="mobile menu icon"
+                  />
+                </a>
+                <div id="myLinks">
+                  <div><a href="#news">News</a></div>
+                  <div><a href="#contact">Contact</a></div>
+                  <div><a href="#about">About</a></div>
+                </div>
+              </div>
+              <!-- End Mobile Nav-->
               <div class="dropdown">
                 <button class="dropbtn">Product</button>
                 <div class="dropdown-content">

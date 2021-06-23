@@ -78,6 +78,14 @@ header {
   display: none;
 }
 
+.burger #myLinks {
+  display: none;
+}
+
+#myLinks > div > a {
+  display: none;
+}
+
 /* -----------------Header Text------------------------ */
 
 .login {
@@ -275,6 +283,28 @@ footer {
     display: block;
     position: absolute;
     right: 3.5em;
+    top: 2.7rem;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  #myLinks {
+    background: rgb(78, 72, 72);
+    opacity: 0.9;
+    border-radius: 1rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+  }
+
+  #myLinks > div > a {
+    margin: 3em;
+    display: block;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
   }
 
   .logo {
