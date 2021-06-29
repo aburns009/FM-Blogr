@@ -286,17 +286,12 @@ footer {
     top: 2.7rem;
   }
 
-  .burger {
-    display: block;
-  }
-
   #myLinks {
+    position: absolute;
+    right: 10%;
     background: rgb(78, 72, 72);
     opacity: 0.9;
     border-radius: 1rem;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
     padding: 4rem;
   }
 
